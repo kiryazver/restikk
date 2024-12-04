@@ -1,0 +1,155 @@
+body{
+    background:url(image/fon2.webp);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    opacity: 0.9;
+}
+
+
+header .logo{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+
+header nav li{
+    position: relative;
+    float: left;
+}
+
+
+header nav li a{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh;
+}
+
+
+.img_head{
+    max-width: 10vh;
+}
+
+
+nav a:hover::after {
+    height: 100%;
+}
+
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(89, 144, 165);
+    z-index: -1;
+    width: 100%;
+    height: 1px;
+    transition: 0.4s;
+}
+
+
+.container{
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+
+.frame {
+    height: 450px;
+    width: 350px;
+    background:linear-gradient( rgba(117, 131, 201, 0.95), rgba(35,43,85,0.95));
+    background-size: cover;
+    border-top: solid 0px rgba(255,255,255,.5);
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+.signup-inactive{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: white
+}
+
+
+.inp{
+    margin-left: 35px;
+    width: 80%;
+    height: 35px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.7;
+    padding-left: 10px;
+}
+
+
+.inp_but{
+    background-color: aqua;
+    margin-left: 35px;
+    width: 80%;
+    height: 35px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.7;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+
+.inp_but:hover {
+    opacity: 0.5;
+}
+
+
+.inp_but:active {
+    opacity: 0.9;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.log{
+    color: rgb(161, 141, 141);
+    font-size: 20px;
+}

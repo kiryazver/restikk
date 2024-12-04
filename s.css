@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    background:linear-gradient(rgb(110, 95, 95),rgb(70, 70, 107));
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    opacity: 0.95;
+    z-index: 50;
+}
+
+
+header .logo{
+    color: rgb(114, 111, 100);
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+
+header nav li{
+    position: relative;
+    float: left;
+}
+
+
+header nav li a p{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh;
+}
+
+
+.img_head{
+    width:5vw;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1;
+    font-size: 1.5vw;
+}
+
+
+h2{
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1;
+    font-size: 4vw;
+    color: white;
+}
+
+
+.anim{
+    transition: 1s;
+    height: 20vw;
+    width:100%;
+}
+
+
+.anim:hover{
+    transform: scale(1.5);
+}
+
+
+p{
+    color: #5a5a5a;
+    padding: 10px;
+    transition:0.1s linear;
+}
+
+
+p:hover {
+    color: #fff; 
+    background: #f66d52;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:25%;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container {
+    padding: 2px 16px;
+}
+
+
+.full{
+    display: flex;
+    border: 0px solid black;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.anim{
+    transition: 0.5s;
+    height: 20vw;
+    width:100%;
+}
+
+
+.anim:hover{
+    transform: scale(1.5);
+}
+
+
+.text_menu{
+    font-size: 1.3vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.product-card {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px solid #ccc;
+    padding: 16px;
+    border-radius: 15px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+
+.product-card__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border-radius: 15px;
+}
+
+
+.product-card__title{
+    font-size: 18px;
+    font-weight: 2;
+    margin-bottom: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.product-card__description{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+
+.product-card__price{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.product-card__button {
+    background-color: #0077d8;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.zxc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
